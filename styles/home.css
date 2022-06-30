@@ -1,4 +1,6 @@
-/* nav */
+/*
+ nav
+  */
 nav {
     display: flex;
     justify-content:space-between;
@@ -16,7 +18,7 @@ nav {
 .logo {
     width: 40px;
     height: 40px;
-    margin-left: 70px;
+    margin-left: 100px;
     border-radius: 100%;
 }
 
@@ -28,17 +30,16 @@ nav {
 }
 
 .txt-titulo:hover {
-    
     background-color: #FDCB90;
     padding: 5px;
-    border-radius: 100%;
+    border-radius: 8px;
     
 }
 
 .nav-links{
     display: flex;
     flex-direction: row;
-    margin-right: 70px;  
+    margin-right: 100px;  
 }
 
 .nav-links .nav-item {
@@ -50,12 +51,12 @@ nav {
 }
 
 .nav-item #item:hover {
-    color: #201F2C;
     padding: 8px 8px;
     border-bottom: #FDCB90 3px solid;
 }
 
-.contact-us {
+
+.contact-me {
     color: #201F2C;
     background-color:#FDCB90;
     padding: 16px 48px;
@@ -65,51 +66,42 @@ nav {
     transition: background-color .5s;
 }
 
-.contact-us:hover {
+.contact-me:hover {
     color: #ffff;
     background-color:#201F2C;
-    
 }
 
 .img-logo{
     margin-left: 70px;
 }
-/* container */
-
+/* 
+main
+*/
 .main-page-home {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FFFFFF;
     width: 100%;
-    height: 100vh;
+    height: 100vh-70px;
+    margin-top: 10%;
 }
-
-.container-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-/* left-page */
+/* 
+left-page 
+*/
 .left-page {
-    margin-left: 70px;
+    margin-left: 100px;
     background-color: #FFFFFD;
-    border-radius: 2px;
-
-    margin-right: 32px;
-    box-shadow: rgba(255, 255, 255, 0.06) 0px 2px 4px 0px inset;
-    transition: box-shadow 1s;
+    margin-right: 24px;
 }
 
 .left-page .sub-description {
     color: #686680;
     font-size: 32px;;
-
 }
 
 .btn-hide-me {
     width: 120px;
-    
     background-color: #201F2C;
     color: #E5E5E3;
     padding: 16px 48px;
@@ -124,22 +116,31 @@ nav {
 .btn-hide-me:hover {
     color: #201F2C;
     background-color:#FDCB90;
-    
 }
-/* right-pagepage */
+/* 
+right-page
+ */
 .right-page {
     width: 600px;
     height: 600px;
-    margin-right: 70px;
+    margin-right: 100px;
     background-color: #FDCB90;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 1s ease-out;
 }
 .right-page:hover {
-    background-color: #686680;
+    animation: bgFoto 2s;
+} @keyframes bgFoto {
+    0%,100%{
+        background-color: #FDCB90;
+        transform: scale(1);
+    }
+    50%{
+        background-color: #686680;
+        transform: scale(1.2);
+    }
 }
 
 .img-foto-perfil {
@@ -148,23 +149,4 @@ nav {
     border-radius: 100%;
     align-items: center;
     margin-bottom: 56px;
-  
 }
-.to-scroll p{
-    margin-top: 42px;
-    margin-left: 70px;
-    
-}
-
-.txt-scroll {
-    cursor: pointer;
-    color: #686680;
-
-}
-
-.txt-scroll:hover {
-    
-    color: #201F2C;
-
-}
-

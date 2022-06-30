@@ -1,0 +1,70 @@
+body{
+    background-color: #FDCB90;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 48px 48px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.foco {
+    background-color: white;
+}
+.bg-foto {
+    background-color: #FDCB90;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+.bg-foto:hover {
+    animation: bgFoto 2s;
+} @keyframes bgFoto {
+    0%,100%{
+        background-color: #FDCB90;
+        transform: scale(1);
+    }
+    50%{
+        background-color: #686680;
+        transform: scale(1.1);
+    }
+}
+
+.img-foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:auto;
+    border-radius: 100%;
+    padding-bottom: 40px;
+}
+
+.info-textos {
+    margin-top: 24px;
+    
+}
+.iconSociais {
+    margin-top: 32px;
+    color: #201F2C;
+    margin-right: 16px;
+    cursor: pointer;
+    
+}
+.iconSociais:hover {
+  color: #FDCB90;
+  transform: scale(1.5);
+}
