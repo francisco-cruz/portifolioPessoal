@@ -1,6 +1,7 @@
 /*
  nav
   */
+
 nav {
     display: flex;
     justify-content:space-between;
@@ -18,7 +19,7 @@ nav {
 .logo {
     width: 40px;
     height: 40px;
-    margin-left: 100px;
+    margin-left: 200px;
     border-radius: 100%;
 }
 
@@ -39,7 +40,7 @@ nav {
 .nav-links{
     display: flex;
     flex-direction: row;
-    margin-right: 100px;  
+    margin-right: 200px;  
 }
 
 .nav-links .nav-item {
@@ -90,14 +91,15 @@ main
 left-page 
 */
 .left-page {
-    margin-left: 100px;
+    margin-left: 200px;
     background-color: #FFFFFD;
     margin-right: 24px;
 }
 
 .left-page .sub-description {
     color: #686680;
-    font-size: 32px;;
+    font-size: 32px;
+    margin-top: 16px;
 }
 
 .btn-hide-me {
@@ -121,9 +123,9 @@ left-page
 right-page
  */
 .right-page {
-    width: 600px;
-    height: 600px;
-    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+    margin-right: 200px;
     background-color: #FDCB90;
     border-radius: 100%;
     display: flex;
@@ -144,7 +146,7 @@ right-page
 }
 
 .img-foto-perfil {
-    width: 100%;
+    width: 500px;
     height: auto;
     border-radius: 100%;
     align-items: center;

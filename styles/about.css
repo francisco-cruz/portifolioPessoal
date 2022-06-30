@@ -3,8 +3,8 @@ body{
 }
 .cabecalho {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     margin-top: 32px;
 }
 
@@ -17,10 +17,6 @@ body{
     padding: 48px 48px;
     background-color: white;
     margin-left: 100px;
-}
-
-.foco {
-    background-color: white;
 }
 .bg-foto {
     background-color: #FDCB90;
@@ -54,8 +50,11 @@ body{
 }
 
 .info-textos {
-    margin-top: 24px;
+    margin-top: 32px;
     
+}
+.info-textos p {
+    margin-bottom: 14px;
 }
 .iconSociais {
     margin-top: 32px;
@@ -67,4 +66,31 @@ body{
 .iconSociais:hover {
   color: #FDCB90;
   transform: scale(1.5);
+}
+
+/* foco de estudo */
+.foco {
+    width: 600px;
+    margin-right: 100px;
+    border-radius: 8px;
+    padding: 48px 48px;
+    background-color: white;
+    margin-left: 24px;
+
+}
+.textoTitle {
+    font-size: 32px;
+}
+
+h2 {
+    margin-bottom: 14px;;
+}
+ol li {
+    margin-left: 8px;
+    text-decoration:  underline solid 2px #FDCB90;
+    margin-bottom: 14px;
+}
+ol li:hover{
+    margin-left: 8px;
+    text-decoration:  underline solid 2px #686680;
 }
