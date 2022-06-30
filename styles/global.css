@@ -1,20 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,700&display=swap');
 
 body {
-    --corPrimaria:#FDCB90;
-    --corTexto: #201F2C;
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 
-ol, ul, li, a {
+ol, ul, li, a, p, button {
     text-decoration: none;
     list-style: none;
     font-weight: 700;
+    font-size: 18px;;
+    font-family: 'Share Tech Mono', monospace;
+    color: #201F2C;
+    
 }
 
-h1, h2, h3 {
-    font-family: 'Share Tech Mono', monospace;
-    
+h1, h2 { 
+    color: #201F2C;
+}
+h1 {
+    font-size: 64px;
+}
+
+h3 {
+    color: #38364D;
+    font-size: 32px;
 }
