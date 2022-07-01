@@ -1,0 +1,83 @@
+.titulo-projeto {
+    margin-bottom:16px;
+    font-size: 28px;
+    display: flex;
+    text-align: start;
+   
+    color: #201F2C;
+
+}
+
+.subtitulo-projeto {
+    font-size: 22px;
+    color: #686680;
+    margin-bottom: 24px;
+}
+
+.details-objetivo {
+    margin-bottom: 24px;
+}
+.titulo-sumary {
+    background-color: #686680;
+    width: 150px;
+    text-align: center;
+    background-color: #201F2C;
+    color: #E5E5E3;
+
+    padding: 16px 48px;
+    margin-bottom: 16px;
+    border-radius: 24px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .5s;
+
+}
+.titulo-sumary:hover {
+    color: #201F2C;
+    background-color:#FDCB90;
+}
+
+.conteudo-sumary {
+    margin-left: 32px;
+
+}
+
+
+
+.details-secundario {
+
+}
+
+.titulo-secundario-sumary {
+    background-color: #686680;
+    width: 150px;
+    text-align: center;
+    background-color: #201F2C;
+    color: #E5E5E3;
+
+    padding: 16px 48px;
+    margin-bottom: 16px;
+    margin-left: 32px;
+    border-radius: 24px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .5s;
+
+}
+.titulo-secundario-sumary:hover {
+    color: #201F2C;
+    background-color:#FDCB90;
+}
+.conteudo-secundario-sumary {
+    margin-bottom: 16px;
+    margin-left: 64px;
+
+
+}
+#conteudo-sumary-usabilidade{
+    margin-bottom: 16px;
+}

@@ -1,4 +1,4 @@
-function openCity(evt, cityName, nameResumo) {
+function openProject(evt, projectName, nameResumo) {
   let i, tabcontent, tablinks, resumes;
   // ocultando os conteudos
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -11,7 +11,7 @@ function openCity(evt, cityName, nameResumo) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   // mostrando o elemento ativo na tela
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(projectName).style.display = "block";
   evt.currentTarget.className += " active";
   // pegando o resumo pelo id
   resumes = document.getElementsByClassName("resumes");

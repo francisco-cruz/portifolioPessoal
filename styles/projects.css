@@ -16,13 +16,14 @@ body {
 .projects {
     width: 800px;
     background-color: white;
-    padding: 32px 0 64px 32px;
+    padding: 0 32px;
     border-radius: 8px;
 
 }
-.projects h1 {
+.titulo-aba {
     margin: 0;
     font-size: 36px;
+    margin-top: 32px ;
     margin-bottom: 48px;
     text-align: center;
     align-items: center;
@@ -34,7 +35,7 @@ body {
     flex-direction: column;
 }
 .tab button {
-    margin-right: 32px;
+  
     margin-bottom: 16px;
     background-color: transparent;
     color: #686680;
@@ -49,18 +50,13 @@ body {
     border-bottom: 3px solid #FDCB90;
     color: #201F2C;
 }
+
 .resume-projects {
     width: 500px;
+    height: 700px;
     background-color: white;
-    padding: 32px 32px;
+    padding: 0 32px;
     border-radius: 8px;
-}
-.resume-projects h1 {
-    margin: 0;
-    font-size: 36px;
-    margin-bottom: 48px;
-    text-align: center;
-    align-items: center;
 }
 
 .resume-projects .resumes {
