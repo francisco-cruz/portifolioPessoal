@@ -14,10 +14,11 @@ body {
 }
 
 .projects {
-    width: 700px;
+    width: 800px;
     background-color: white;
-    padding: 32px 64px;
+    padding: 32px 0 64px 32px;
     border-radius: 8px;
+
 }
 .projects h1 {
     margin: 0;
@@ -29,9 +30,12 @@ body {
 
 .tab{
     display: flex;
-    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
 }
 .tab button {
+    margin-right: 32px;
+    margin-bottom: 16px;
     background-color: transparent;
     color: #686680;
     border: none;
