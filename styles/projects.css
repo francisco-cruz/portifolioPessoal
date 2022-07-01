@@ -26,8 +26,7 @@ body {
 .titulo-aba {
     margin: 0;
     font-size: 36px;
-    margin-top: 32px ;
-    margin-bottom: 48px;
+    margin: 32px 0;
     text-align: center;
     align-items: center;
 }
@@ -56,7 +55,7 @@ body {
 
 .resume-projects {
     width: 500px;
-    height: 300px;
+    height: 400px;
     background-color: white;
     padding: 0 32px;
     border-radius: 8px;

@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="stylesheet" href="/styles/projects.css">
     <link rel="stylesheet" href="/styles/details.css">
-    <link rel="stylesheet" href="/styles/iconesFerramentas.css">
+    <link rel="stylesheet" href="/styles/smart library/ferramentasSmart.css">
+    <link rel="stylesheet" href="/styles/smart library/usabilidadeSmart.css">
+
     <!-- fav icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-
-
     <title>Projects</title>
 </head>
 
@@ -24,9 +24,13 @@
         <div class="resume-projects">
             <h1 class="titulo-aba">Resume</h1>
             <div class="resumes" id="ResumeSmart">
-                <p>Smart Lybrary é uma Aplicação desenvolvida com a finalidade de automatizar a Biblioteca do IFRN
-                    Campus-Caicó, na qual é possível reservar salas de estudos e verificar a
-                    disponibilidade de Computadores antes mesmo de sair de casa.
+                <p>A plataforma Smart Library tem o proposito de facilitar a interação dos alunos do IFRN Campus-Caicó
+                    com a Biblioteca, trazendo alternativas digitais para o acesso de seus recursos e sendo uma
+                    maneira competente de organizar o sistema.
+                    Com a aplicação é possível ver antes mesmo de sair de casa se as ferramentas que irá utilizar na
+                    Biblioteca estão disponíveis, como as salas e os computadores, podendo efetuar suas reservas e só aí
+                    locomover-se, desta forma os alunos terão o acesso ao ambiente de uma maneira organizada, planejada
+                    e de fato certa.
                 </p>
             </div>
             <div class="resumes" id="ResumeCinemax">
@@ -47,7 +51,7 @@
             <!-- Tab links -->
             <div class="tab">
                 <button class="tablinks" onclick="openProject(event, 'Smart', 'ResumeSmart')" id="defaultOpen">Smart
-                    Lybrary</button>
+                    Library</button>
                 <button class="tablinks" onclick="openProject(event, 'Cinemax', 'ResumeCinemax')">Cinemax</button>
                 <button class="tablinks" onclick="openProject(event, 'Animals', 'ResumeAnimals')">Animals</button>
             </div>
@@ -62,24 +66,25 @@
                     <p class="conteudo-sumary">Problemática: Os alunos se descolam de suas casas sem a
                         certeza da disponibilidade dos recursos da Biblioteca do IFRN Campus-Caicó.</p>
                     <br>
-                    <p class="conteudo-sumary">Solução: Desenvolver um sistema de automação dos recursos da Biblioteca, para que os
+                    <p class="conteudo-sumary">Solução: Desenvolver um sistema de automação dos recursos da Biblioteca,
+                        para que os
                         alunos não precisem sair de casa para reservar horários em salas de estudo e/ou verificar
                         a disponibilidade de Computadores</p>
                 </details>
                 <details class="details-objetivo">
                     <summary class="titulo-sumary">Ferramentas ultilizadas</summary>
                     <div class="iconesFerramentas">
-                        
+
                         <div class="iconFerramenta">
-                            <img src="/images/icons/atom.png" alt="">
+                            <img src="/images/icons/atom.png" alt="ícone react node">
                             <p>React</p>
                         </div>
                         <div class="iconFerramenta">
-                            <img src="/images/icons/postgre.png" alt="">
+                            <img src="/images/icons/postgre.png" alt="ícone postgre">
                             <p>Postgre</p>
                         </div>
                         <div class="iconFerramenta">
-                            <img src="/images/icons/figma.png" alt="">
+                            <img src="/images/icons/figma.png" alt="ícone figma">
                             <p>Figma</p>
                         </div>
                     </div>
@@ -89,17 +94,33 @@
                 </details>
                 <details class="details-objetivo">
                     <summary class="titulo-sumary">Usabilidade</summary>
-                    <p class="conteudo-sumary" id="conteudo-sumary-usabilidade">esses foram os metodos ultilizados para
-                        a usabilidade do projeto</p>
-
+                    <p class="conteudo-sumary" id="conteudo-sumary-usabilidade">Métodos ultilizados para
+                        integrar usabilidade ao Projeto</p>
                     <details class="details-secundario">
-                        <summary class="titulo-secundario-sumary">Fontes e cores</summary>
-                        <p class="conteudo-secundario-sumary"> Porque usamos essas cres e fontes...</p>
+                        <summary class="titulo-secundario-sumary">Fontes & Cores</summary>
+                        <img id="fontesSmart" src="/images/fontesSmart.PNG"
+                            alt="foto mostrando as fontes e cores ultilizadas">
+                        <p class="conteudo-secundario-sumary">A combinação das fontes <a class="textoslinks"
+                                href="https://fonts.google.com/specimen/Ubuntu" target="_blank">Ubuntu </a> e <a
+                                class="textoslinks" href="https://fonts.google.com/?query=open+sans"
+                                target="_blank">Opens Sans </a>
+                            passa uma sensação de dinamicidade e modernidade, além de possuir uma
+                            leitura bastante confortável e agradável aos olhos. Essa associação é perfeita para sistemas
+                            que envolve aprendizado, pois instiga os usuários a continuarem lendo o conteúdo.</p>
+                        <p class="conteudo-secundario-sumary">As cores da plataforma foram pensadas tendo como base o
+                            meio acadêmico em geral e a
+                            psicologia das cores, pois tons de azul trazem a sensação de calma, confiança e segurança
+                            exatamente o que os alunos precisam sentir em uma plataforma digital.
+                        </p>
                     </details>
                     <details class="details-secundario">
-                        <summary class="titulo-secundario-sumary">Layout e navegação</summary>
+                        <summary class="titulo-secundario-sumary">Layout & Navegação</summary>
                         <p class="conteudo-secundario-sumary">Porque usamos essa navegação..</p>
                     </details>
+
+
+
+
                 </details>
                 <details class="details-objetivo">
                     <summary class="titulo-sumary">Considerações finais</summary>

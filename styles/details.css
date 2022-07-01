@@ -38,12 +38,17 @@
     color: #201F2C;
     background-color:#FDCB90;
 }
+.details-objetivo[open] .titulo-sumary {
+    color: #201F2C;
+    background-color:#FDCB90;
+}
+
 
 .conteudo-sumary {
     margin-left: 32px;
 
 }
-
+/* conteudo secundario */
 .titulo-secundario-sumary {
     background-color: #686680;
     width: 150px;
@@ -62,24 +67,30 @@
     transition: background-color .5s;
 
 }
-/* conteudo secundario */
+
 .titulo-secundario-sumary:hover {
     color: #201F2C;
     background-color:#FDCB90;
 }
 
+.details-secundario[open] .titulo-secundario-sumary {
+    color: #201F2C;
+    background-color:#FDCB90;
+}
 .conteudo-secundario-sumary {
     margin-bottom: 16px;
     margin-left: 64px;
+    text-indent: 28px;
 }
 
 #conteudo-sumary-usabilidade{
     margin-bottom: 16px;
+   
 }
 
 /* scroll da aba projetos */
 .projects::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 14px;               /* width of the entire scrollbar */
   }
   
 .projects::-webkit-scrollbar-track {
@@ -88,7 +99,8 @@
   }
   
 .projects::-webkit-scrollbar-thumb {
-    background-color: #201F2C;    /* color of the scroll thumb */
+    background-color: #201F2C;
+    border: #686680 2px solid;    /* color of the scroll thumb */
     border-radius: 8px;       /* roundness of the scroll thumb */
       /* creates padding around scroll thumb */
   }
