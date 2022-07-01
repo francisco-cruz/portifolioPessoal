@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/projects.css">
+    <!-- fav icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Projects</title>
+</head>
+
+<body>
+    <div class="page-projects">
+        <div class="resume-projects">
+            <h1>Resume</h1>
+            <div class="resumes" id="ResumeSmart">
+                <p>Smart Lybrary é uma Aplicação desenvolvida com a finalidade de automatizar a Biblioteca do IFRN
+                    Campus-Caicó, na qual é possível reservar salas de estudos e verificar a
+                    disponibilidade de Computadores antes mesmo de sair de casa.
+                </p>
+            </div>
+            <div class="resumes" id="ResumeCinemax">
+                <p>Cinemax é um Aplicativo fictício que se aproxima de uma Bilheteria Virtual. Em tempos de Pandemia, formas de
+                    remotas de fazer tarefas do dia-a-dia são sempre  muito bem vindas.
+                </p>
+            </div>
+            <div class="resumes" id="ResumeAnimals">
+                <p>Animals é um projeto desenvolvido com a finalidade de arrecadar Doações ou até mesmo novos lares para
+                    animaizinhs de Rua.
+                </p>
+            </div>
+
+        </div>
+        <div class="projects">
+            <h1>Projects</h1>
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Smart', 'ResumeSmart')" id="defaultOpen">Smart Lybrary</button>
+                <button class="tablinks" onclick="openCity(event, 'Cinemax', 'ResumeCinemax')">Cinemax</button>
+                <button class="tablinks" onclick="openCity(event, 'Animals', 'ResumeAnimals')">Animals</button>
+            </div>
+            <!-- Tab content -->
+            <div id="Smart" class="tabcontent">
+                <h3>Smart Lybrary</h3>
+                <p>Conteudo Smart Library</p>
+            </div>
+
+            <div id="Cinemax" class="tabcontent">
+                <h3>Cinemax</h3>
+                <p>Conteudo Cinemax</p>
+            </div>
+
+            <div id="Animals" class="tabcontent">
+                <h3>Animals</h3>
+                <p>Conteudo Animals</p>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="/scripts/tabs.js"></script>
+</body>
+
+</html>

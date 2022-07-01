@@ -104,6 +104,7 @@ left-page
 
 .btn-hide-me {
     width: 120px;
+    text-align: center;
     background-color: #201F2C;
     color: #E5E5E3;
     padding: 16px 48px;
