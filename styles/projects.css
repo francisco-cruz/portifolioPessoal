@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FDCB90;
+    
 }
 .page-projects{
     margin-top: 32px;
@@ -15,9 +16,11 @@ body {
 
 .projects {
     width: 800px;
+    height: 900px;
     background-color: white;
     padding: 0 32px;
     border-radius: 8px;
+    overflow-y: scroll;
 
 }
 .titulo-aba {
@@ -53,7 +56,7 @@ body {
 
 .resume-projects {
     width: 500px;
-    height: 700px;
+    height: 300px;
     background-color: white;
     padding: 0 32px;
     border-radius: 8px;
