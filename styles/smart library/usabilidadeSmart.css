@@ -2,8 +2,14 @@
     width: 800px;
     height: auto;
     margin-bottom: 16px;
+    border-radius: 8px;
 }
 
 .textoslinks:hover {
     color:#FDCB90 ;
 }
+
+.img-navegacao {
+    display: flex;
+    flex-direction: column;
+} 
