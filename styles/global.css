@@ -5,9 +5,9 @@
 /* @import 'projects.css'; */
 @import 'home.css';
 @import 'projects.css';
-@import 'ferramentaSmart.css';
-@import 'usabilidadeSmart.css';
-@import 'navegacaoSmart.css';
+@import 'smart-library/ferramentasSmart.css';
+@import 'smart-library/navegacaoSmart.css';
+@import 'smart-library/usabilidadeSmart.css';
 @import 'details.css';
 
 body {

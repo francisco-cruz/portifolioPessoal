@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
 
 
-    <title>Home</title>
+    <title>Portifólio</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
         <!-- lado esquedo -->
         <div class="left-page">
             <h1>Olá, sou Francisco Cruz<br>Desenvolvedor Web e <br>Designer de Interfaces</h1>
-            <h3 class="sub-description">Interferfaces e sites que trazem identidade.</h3>
+            <h3 class="sub-description">Interfaces e sites que trazem identidade.</h3>
             <button class="btn-read-more">Ver Mais</Button>
         </div>
         <!-- lado direito -->
@@ -152,185 +152,21 @@
 
     <div class="page-projects">
         <h1 class="titulo-projects">Projetos</h1>
-        <div class="main-projects-page">
 
-            <div class="resume-projects">
-                <h2 class="titulo-aba">Resumo</h2>
-                <div class="resumes" id="ResumeSmart">
-                    <p>A plataforma Smart Library tem o proposito de facilitar a interação dos alunos do IFRN
-                        Campus-Caicó
-                        com a Biblioteca, trazendo alternativas digitais para o acesso de seus recursos e sendo uma
-                        maneira competente de organizar o sistema.
-                        Com a aplicação é possível ver antes mesmo de sair de casa se as ferramentas que irá utilizar na
-                        Biblioteca estão disponíveis, como as salas e os computadores, podendo efetuar suas reservas e
-                        só aí
-                        locomover-se, desta forma os alunos terão o acesso ao ambiente de uma maneira organizada,
-                        planejada
-                        e de fato certa.
-                    </p>
+        <div class="container-projects">
+            <div class="project">
+                <div class="image-project">
+                    <img class="image-project" src="../images/layoutSmart.PNG" alt="">
                 </div>
-                <div class="resumes" id="ResumeCinemax">
-                    <p>Cinemax é um Aplicativo fictício que se aproxima de uma Bilheteria Virtual. Em tempos de
-                        Pandemia,
-                        formas de
-                        remotas de fazer tarefas do dia-a-dia são sempre muito bem vindas.
-                    </p>
-                </div>
-                <div class="resumes" id="ResumeAnimals">
-                    <p>Animals é um projeto desenvolvido com a finalidade de arrecadar Doações ou até mesmo novos lares
-                        para
-                        animaizinhs de Rua.
-                    </p>
+                <div>
+                    <h1 class="nome-projeto">Smart Library</h1>
+                    <Button class="btn-projeto">Ver Mais</Button>
                 </div>
 
-            </div>
-            <div class="projects">
-                <!-- Tab links -->
-                <div class="tab">
-                    <button class="tablinks" onclick="openProject(event, 'Smart', 'ResumeSmart')" id="defaultOpen">Smart
-                        Library</button>
-                    <button class="tablinks" onclick="openProject(event, 'Cinemax', 'ResumeCinemax')">Cinemax</button>
-                    <button class="tablinks" onclick="openProject(event, 'Animals', 'ResumeAnimals')">Animals</button>
-                </div>
-                <!-- Tab content -->
-                <div id="Smart" class="tabcontent">
-                    <!-- titulo do projeto -->
-                    <h1 class="titulo-projeto">Smart Library</h1>
-                    <h2 class="subtitulo-projeto">Sistema de Automação de Bibliotecas</h2>
-                    <!-- sessoes -->
-                   
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Ferramentas ultilizadas</summary>
-                        <div class="iconesFerramentas">
-
-                            <div class="iconFerramenta">
-                                <img src="../images/icons/atom.png" alt="ícone react node">
-                                <p>React</p>
-                            </div>
-                            <div class="iconFerramenta">
-                                <img src="../images/icons/postgre.png" alt="ícone postgre">
-                                <p>Postgre</p>
-                            </div>
-                            <div class="iconFerramenta">
-                                <img src="../images/icons/figma.png" alt="ícone figma">
-                                <p>Figma</p>
-                            </div>
-                        </div>
-                        
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Usabilidade</summary>
-                        <p class="conteudo-sumary" id="conteudo-sumary-usabilidade">Meios ultilizados para
-                            integrar usabilidade ao Projeto</p>
-                        <details class="details-secundario">
-                            <summary class="titulo-secundario-sumary">Fontes & Cores</summary>
-                            <img id="fontesSmart" src="../images/fontesSmart.PNG"
-                                alt="foto mostrando as fontes e cores ultilizadas">
-                    
-                        </details>
-                        <details class="details-secundario">
-                            <summary class="titulo-secundario-sumary">Layout & Navegação</summary>
-                            <p class="conteudo-secundario-sumary">Porque usamos essa navegação..</p>
-                            <div class="img-navegacao">
-                                <img class="navSmart" src="../images/navSmart.PNG" alt="">
-                                <img class="navSmart" src="../images/layoutSmart.PNG" alt="">
-                                <p class="conteudo-secundario-sumary">Foi usado de base a ferramenta <a class="linkGS"
-                                        href="https://classroom.google.com/h" target="_blank">Google Classroom</a>,
-                                    que os alunos da instituição fazem uso e estão familiarizados, por isso
-                                    usar um Layout semelhante, ficaria mais facil para os usuários (os própios alunos)
-                                    assimilarem as funcionalidades.
-                                </p>
-                            </div>
-                        </details>
-
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Considerações finais</summary>
-                        <p class="conteudo-sumary" id="texto-final">Smart Library foi o meu primeiro projeto, foi onde
-                            de fato comecei a desenvolver páginas Web e
-                            ao mesmo tempo me descobrir como Designer de Interfaces. O processo de construção foi
-                            bastante gradual, desde as primeiras
-                            telinhas desalinhadas até a plataforma final. Desenvolver Smart Library sem dúvidas foi um
-                            abridor de portas para todos os desenvoldores,
-                            pois todos eramos inciantes, mas com esforço e muito estudo conseguimos entregar o melhor
-                            trabalho possível.
-                        </p>
-                    </details>
-                </div>
-
-                <div id="Cinemax" class="tabcontent">
-                    <!-- titulo do projeto -->
-                    <h1 class="titulo-projeto">Cinemax</h1>
-                    <h2 class="subtitulo-projeto">Aplicativo de Bilheteria Online</h2>
-                    <!-- sessoes -->
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Objetivo</summary>
-                        <p class="conteudo-sumary">O objetivo é...</p>
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Ferramentas ultilizadas</summary>
-                        <p class="conteudo-sumary">As ferramentas ultilizadas são...</p>
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Usabilidade</summary>
-                        <p class="conteudo-sumary" id="conteudo-sumary-usabilidade">esses foram os metodos ultilizados
-                            para
-                            a usabilidade do projeto</p>
-
-                        <details class="details-secundario">
-                            <summary class="titulo-secundario-sumary">Fontes e cores</summary>
-                            <p class="conteudo-secundario-sumary"> Porque usamos essas cres e fontes...</p>
-                        </details>
-                        <details class="details-secundario">
-                            <summary class="titulo-secundario-sumary">Layout e navegação</summary>
-                            <p class="conteudo-secundario-sumary">Porque usamos essa navegação..</p>
-                        </details>
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Considerações finais</summary>
-                        <p class="conteudo-sumary">Minha opiniçao sovre o projeto, o que ele acrescentou na minha
-                            experienci
-                            (como programaador)..</p>
-                    </details>
-                </div>
-
-                <div id="Animals" class="tabcontent">
-                    <!-- titulo do projeto -->
-                    <h1 class="titulo-projeto">Animals</h1>
-                    <h2 class="subtitulo-projeto">Sistema de Adoçao de Pets</h2>
-                    <!-- sessoes -->
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Objetivo</summary>
-                        <p class="conteudo-sumary">O objetivo é...</p>
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Ferramentas ultilizadas</summary>
-                        <p class="conteudo-sumary">As ferramentas ultilizadas são...</p>
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Usabilidade</summary>
-                        <p class="conteudo-sumary" id="conteudo-sumary-usabilidade">esses foram os metodos ultilizados
-                            para
-                            a usabilidade do projeto</p>
-
-                        <details class="details-secundario">
-                            <summary class="titulo-secundario-sumary">Fontes e cores</summary>
-                            <p class="conteudo-secundario-sumary"> Porque usamos essas cres e fontes...</p>
-                        </details>
-                        <details class="details-secundario">
-                            <summary class="titulo-secundario-sumary">Layout e navegação</summary>
-                            <p class="conteudo-secundario-sumary">Porque usamos essa navegação..</p>
-                        </details>
-                    </details>
-                    <details class="details-objetivo">
-                        <summary class="titulo-sumary">Considerações finais</summary>
-                        <p class="conteudo-sumary">Minha opiniçao sovre o projeto, o que ele acrescentou na minha
-                            experienci
-                            (como programaador)..</p>
-                    </details>
-                </div>
             </div>
         </div>
+        
+        
     </div>
 
 
