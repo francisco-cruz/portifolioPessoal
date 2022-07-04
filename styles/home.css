@@ -62,10 +62,11 @@
     }
 }
 
-.img-foto-perfil {
-    width: 100%;
+.foto-perfil-home {
+    width: 500px;
     height: auto;
-    margin-bottom: 25px;
+    border-radius: 100%;
+    margin-bottom: 50px;
 }
 
 

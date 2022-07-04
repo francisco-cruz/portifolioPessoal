@@ -6,11 +6,12 @@
     flex-direction: column;
     align-items: center;
     margin-top: 32px;
-    background-color: aqua;
+    background-color: white;
 }
 .main-page-about {
-   display: flex;
+    display: flex;
     align-items: flex-start;
+    margin-top: 64px;
 }
 
 .perfil {
@@ -19,7 +20,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    padding: 48px;
+    padding: 32px 24px;
     background-color: #FDCB90;
    
 }
@@ -30,24 +31,20 @@
     border-radius: 100%;
     display: flex;
     align-items: center;
+    transition: background-color 1s;
 }
 .bg-foto:hover {
-    animation: bgFoto 1s;
-} @keyframes bgFoto {
-    50%{
-        background-color: #686680;
-        transform: scale(1.1);
-    }
-}
+    background-color: #686680;
+} 
 
-.img-foto-perfil {
+.foto-perfil-about {
     display: flex;
     justify-content: center;
     align-items: center;
     width:300px;
     height:auto;
     border-radius: 100%;
-    padding-bottom: 5px;
+    margin-bottom: 28px;
 }
 
 .info-textos {
@@ -57,26 +54,42 @@
 .info-textos p {
     margin-bottom: 14px;
 }
+
 .iconSociais {
     margin-top: 32px;
     color: #201F2C;
     margin-right: 16px;
-    cursor: pointer;
-    
+    cursor: pointer;  
+
 }
 .iconSociais:hover {
   color: white;
   transform: scale(1.5);
 }
 
+.about-items-rigth {
+    margin-left: 24px;
+}
+
 /* foco de estudo */
 .foco {
     width: 600px;
+    height: auto;
+    padding: 24px;
     margin-right: 100px;
     border-radius: 8px;
-    padding: 48px 48px;
     background-color: #FDCB90;
     margin-left: 24px;
 
+}
+
+.algo {
+    width: 600px;
+    height: 263px;
+    padding: 24px;
+    background-color: #FDCB90;
+    margin-top: 16px;
+    margin-left: 24px;
+    border-radius: 8px;
 }
 

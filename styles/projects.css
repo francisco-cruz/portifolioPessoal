@@ -1,31 +1,33 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FDCB90;
-    
-}
+
 .page-projects{
-    margin-top: 32px;
     background-color: #FDCB90;
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    flex-direction:column;
+    align-items: center;
+    
 }
 
+
+.main-projects-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 64px;
+}
 .projects {
     width: 800px;
-    height: 900px;
+    height: 750px;
     background-color: white;
     padding: 0 32px;
     border-radius: 8px;
     overflow-y: scroll;
+    margin-left: 24px;
 
 }
 .titulo-aba {
     margin: 0;
-    font-size: 36px;
     margin: 32px 0;
     text-align: center;
     align-items: center;
@@ -55,7 +57,7 @@ body {
 
 .resume-projects {
     width: 500px;
-    height: 400px;
+    height: 350px;
     background-color: white;
     padding: 0 32px;
     border-radius: 8px;

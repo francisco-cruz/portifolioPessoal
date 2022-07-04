@@ -4,6 +4,12 @@
 @import 'nav.css';
 /* @import 'projects.css'; */
 @import 'home.css';
+@import 'projects.css';
+@import 'ferramentasSmart.css';
+@import 'usabilidadeSmart.css';
+@import 'navegacaoSmart.css';
+@import 'details.css';
+
 body {
     margin: 0;
     padding: 0;
