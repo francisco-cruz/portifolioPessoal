@@ -1,11 +1,16 @@
-body{
-    background-color: #FDCB90;
-}
-.cabecalho {
+.about-section {
+    width: 100%;
+    padding-top: 70px;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     margin-top: 32px;
+    background-color: aqua;
+}
+.main-page-about {
+   display: flex;
+    align-items: flex-start;
 }
 
 .perfil {
@@ -14,12 +19,12 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    padding: 48px 48px;
-    background-color: white;
-    margin-left: 100px;
+    padding: 48px;
+    background-color: #FDCB90;
+   
 }
 .bg-foto {
-    background-color: #FDCB90;
+    background-color: white;
     width: 300px;
     height: 300px;
     border-radius: 100%;
@@ -27,12 +32,8 @@ body{
     align-items: center;
 }
 .bg-foto:hover {
-    animation: bgFoto 2s;
+    animation: bgFoto 1s;
 } @keyframes bgFoto {
-    0%,100%{
-        background-color: #FDCB90;
-        transform: scale(1);
-    }
     50%{
         background-color: #686680;
         transform: scale(1.1);
@@ -46,7 +47,7 @@ body{
     width:300px;
     height:auto;
     border-radius: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .info-textos {
@@ -64,7 +65,7 @@ body{
     
 }
 .iconSociais:hover {
-  color: #FDCB90;
+  color: white;
   transform: scale(1.5);
 }
 
@@ -74,23 +75,8 @@ body{
     margin-right: 100px;
     border-radius: 8px;
     padding: 48px 48px;
-    background-color: white;
+    background-color: #FDCB90;
     margin-left: 24px;
 
 }
-.textoTitle {
-    font-size: 32px;
-}
 
-h2 {
-    margin-bottom: 14px;
-}
-ol li {
-    margin-left: 8px;
-    text-decoration:  underline solid 2px #FDCB90;
-    margin-bottom: 14px;
-}
-ol li:hover{
-    margin-left: 8px;
-    text-decoration:  underline solid 2px #686680;
-}
