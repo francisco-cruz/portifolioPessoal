@@ -1,18 +1,6 @@
 .iconesFerramentas {
-    display: flex;
-    justify-content: center;
-    margin-left: 64px;
-}
-.iconFerramenta {
-    margin-right: 64px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 16px;
-    margin-bottom: 16px;
+ background-color: antiquewhite;
+ display: flex;
 }
 
-.iconFerramenta img {
-    width: 60px;
-}
 

@@ -1,5 +1,12 @@
 #fontesSmart {
-    width: 800px;
+    width: 500px;
+    height: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.navSmart {
+    width: 500px;
     height: auto;
     margin-bottom: 16px;
     border-radius: 8px;
