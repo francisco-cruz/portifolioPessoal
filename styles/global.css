@@ -5,10 +5,9 @@
 /* @import 'projects.css'; */
 @import 'home.css';
 @import 'projects.css';
-@import 'smart-library/ferramentasSmart.css';
-@import 'smart-library/navegacaoSmart.css';
-@import 'smart-library/usabilidadeSmart.css';
+
 @import 'details.css';
+@import 'freelas.css';
 
 
 html {
