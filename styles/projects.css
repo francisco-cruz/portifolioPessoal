@@ -47,7 +47,10 @@
 
 .img-project {
     width: 100%;
+    height: 282px;
+    object-fit: cover;
     border-radius: 8px;
+
    
     transition: transform .5s;
 }
