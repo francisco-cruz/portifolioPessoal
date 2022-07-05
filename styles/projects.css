@@ -84,3 +84,31 @@
 box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
 }
 
+.called {
+    margin-top: 200px;
+    font-size:48px;
+    color: white;
+}
+
+.called-link {
+    margin-top: 24px;
+    text-decoration: dotted 2px white solid;
+    font-size: 32px;
+    color: white;
+    transition: color .5s;
+
+}
+.called-link:hover {
+   color: #FDCB90;
+   
+
+
+}
+
+.icon-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
