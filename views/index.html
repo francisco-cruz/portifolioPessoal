@@ -24,35 +24,48 @@
             <p class="txt-titulo">Portifólio</p>
         </div>
         <ol class="nav-links">
-            <li class="nav-item"><a id="item" href="#">Início</a></li>
-            <li class="nav-item"><a id="item" href="about.html">Sobre</a></li>
-            <li class="nav-item"><a id="item" href="projects.html">Projetos</a></li>
+            <li class="nav-item"><a id="item" href="#section-home">Início</a></li>
+            <li class="nav-item"><a id="item" href="#section-about">Sobre</a></li>
+            <li class="nav-item"><a id="item" href="#section-projects">Projetos</a></li>
             <li class="nav-item"><a class="contact-me" href="#">Contato</a></li>
         </ol>
     </nav>
 
 
 
-    <div class="page-home">
+    <div id="section-home" class="page-home">
 
         <!-- lado esquedo -->
-        <div class="left-page">
-            <h1>Olá, sou Francisco Cruz<br>Desenvolvedor Web e <br>Designer de Interfaces</h1>
-            <h3 class="sub-description">Interfaces e sites que trazem identidade.</h3>
-            <button class="btn-read-more">Ver Mais</Button>
-        </div>
-        <!-- lado direito -->
-        <div class="right-page">
-            <img class="foto-perfil-home" src="../images/foto-perfil.png" alt="">
-        </div>
+        <div class="home-container">
 
+            <div class="left-page">
+                <h1 class="welcome">Olá, sou Francisco Cruz<br>Desenvolvedor Web e <br>Designer de Interfaces</h1>
+                <h3 class="sub-description">Interfaces e sites que trazem identidade.</h3>
+                <a href="#section-about"><button class="btn-read-more">Ver Mais</Button></a>
+            </div>
+            <!-- lado direito -->
+            <div class="right-page">
+                <img class="foto-perfil-home" src="../images/foto-perfil.png" alt="">
+            </div>
+
+        </div>
+        <div class="arrow-down">
+
+            <svg class="icon-scroll" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevrons-down">
+                <polyline points="7 13 12 18 17 13"></polyline>
+                <polyline points="7 6 12 11 17 6"></polyline>
+            </svg>
+            <p class="text-arrow">Role a tela</p>
+        </div>
     </div>
 
 
 
 
     <!-- section about  -->
-    <div class="about-section">
+    <div id="section-about" class="about-section">
         <h1 class="titulo-page">Sobre</h1>
         <di class="main-page-about">
 
@@ -116,7 +129,7 @@
                         <li>PHP</li>
                     </ol>
 
-                    <h3 class="habilidades" >Designer de Interfaces</h3>
+                    <h3 class="habilidades">Designer de Interfaces</h3>
                     <ol class="lista-habilidades">
                         <li>UI Design</li>
                         <li>UX DeSign</li>
@@ -150,7 +163,7 @@
 
 
 
-    <div class="page-projects">
+    <div id="section-projects"class="page-projects">
         <h1 class="titulo-projects">Projetos</h1>
 
         <div class="container-projects">
@@ -187,14 +200,10 @@
 
             </div>
 
-
-
-
         </div>
-        
+        <p class="called">Se interessou? Vamos trabalhar juntos!</p>
+        <a class="called-link" href="">Clique Aqui</a>
     </div>
-
-
 
     <script src="../scripts/tabs.js"> </script>
 
