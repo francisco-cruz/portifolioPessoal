@@ -107,3 +107,30 @@
 
 
 }
+
+/* .welcome{
+    border-right-color: #E5E5E3;
+    writing-mode:initial;
+    overflow: hidden;
+    animation:
+    cursor 500ms steps(66) infinite normal,
+    type 5s steps(66) normal both;
+} */
+
+@keyframes cursor {
+    from {
+        border-right-color: #201F2C;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+    to {
+       width: 168px;
+    }
+}

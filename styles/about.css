@@ -26,6 +26,27 @@
    
 }
 
+.perfil:hover {
+    transition: transform 2s;
+    animation: bg-scale-perfil 1s;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+@keyframes bg-scale-perfil {
+    0%{
+        
+        transform: scaley(1);
+    }
+    50%{
+        transform: scaley(1.03);
+    }
+    100%{
+        transform: scaley(1);
+    }
+}
+
+
+
 .bg-foto {
     background-color: #FDCB90;
     width: 300px;
@@ -33,11 +54,21 @@
     border-radius: 100%;
     display: flex;
     align-items: center;
-    transition: background-color 1s;
+   
 }
+
 .bg-foto:hover {
-    background-color: #686680;
-} 
+    animation: bgFoto-about 1s;
+}
+ @keyframes bgFoto-about {
+    50%{
+        transform: scale(1.11);
+        background-color: #686680;
+    }
+    
+}
+
+
 
 .foto-perfil-about {
     display: flex;
@@ -61,7 +92,8 @@
     margin-top: 32px;
     color: #201F2C;
     margin-right: 16px;
-    cursor: pointer;  
+    cursor: pointer; 
+    transition: transform .1s; 
 
 }
 .iconSociais:hover {
@@ -89,9 +121,26 @@
     margin-left: 24px;
 
 }
-
+.foco:hover {
+    transition: transform 2s;
+   animation: bg-scale-ani 1s;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+@keyframes bg-scale-ani {
+    0%{
+        
+        transform: scalex(1);
+    }
+    50%{
+        transform: scalex(1.03);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
 .habilidades {
-    margin-top: 16px;
+    margin-top: 16px;   
 }
 
 .lista-habilidades {
@@ -106,6 +155,12 @@
     margin-top: 16px;
     margin-left: 24px;
     border-radius: 8px;
+}
+.algo:hover {
+    transition: transform 2s;
+    animation: bg-scale-ani 1s;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
 }
 
 

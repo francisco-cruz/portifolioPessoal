@@ -41,16 +41,18 @@ nav {
     margin-left: 32px;
 }
 
-.nav-item #item {
+#item {
     color: #686680;
 }
 
-.nav-item #item:hover {
-    transform: scale(1.5);
+#item:hover {
+
     padding-bottom: 5px;
     border-bottom: #FDCB90 3px solid;
 
 }
+
+
 
 .contact-me {
     color: #201F2C;
