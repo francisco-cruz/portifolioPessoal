@@ -108,14 +108,33 @@
 
 }
 
-/* .welcome{
+.welcome{
     border-right-color: #E5E5E3;
     writing-mode:initial;
-    overflow: hidden;
-    animation:
-    cursor 500ms steps(66) infinite normal,
-    type 5s steps(66) normal both;
-} */
+   white-space: nowrap;
+   overflow: hidden;
+   animation:
+    type  2s 1S steps(23) normal,
+    cursoor 2s;
+}
+.welcome2 {
+    border-right-color: #E5E5E3;
+    writing-mode:initial;
+   white-space: nowrap;
+   overflow: hidden;
+   
+   animation:
+    type  2s 3s steps(20) normal;
+}
+.welcome3 {
+    border-right-color: #E5E5E3;
+    writing-mode:initial;
+   white-space: nowrap;
+   overflow: hidden;
+   
+   animation:
+    type  2s 4.8s steps(22) normal;
+}
 
 @keyframes cursor {
     from {
@@ -131,6 +150,6 @@
         width: 0;
     }
     to {
-       width: 168px;
+       width: 100%;
     }
 }
