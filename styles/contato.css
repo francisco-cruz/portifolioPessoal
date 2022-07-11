@@ -64,7 +64,7 @@ li input:focus {
 .textarea {
     padding: 10px;
     background-color: white;
-    border-radius: 24px;
+    border-radius: 8px;
     margin-bottom: 24px;
     width: 332px;
     max-width: 332px;
@@ -124,6 +124,7 @@ input[type=submit]:hover {
     height: 100vh;
     position: absolute;
     background-color: rgba(32, 31, 44, 0.2);
+    backdrop-filter: blur(3px);
 
 }
 

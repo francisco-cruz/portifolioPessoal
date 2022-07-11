@@ -153,3 +153,35 @@
        width: 100%;
     }
 }
+
+.fa-brands {
+    color: #201F2C;
+    font-size: 50px;
+    margin-right: 8px;
+    transition: color .2s, transform .5s;
+} 
+
+.fa-brands:nth-child(1):hover {
+    color:#F67B35;
+    transform: scale(1.1);
+    
+}
+.fa-brands:nth-child(2):hover {
+    color:#379AD6;
+    transform: scale(1.1);
+}
+.fa-brands:nth-child(3):hover {
+    color:#F5CE35;
+    transform: scale(1.1);
+}
+.fa-brands:nth-child(4):hover {
+    color:#777BB3;
+    transform: scale(1.1);
+}
+
+.fa-python {
+    color: #201F2C;
+    font-size: 50px;
+    margin-right: 8px;
+    transition: color .5s, transform .5s;
+} 
