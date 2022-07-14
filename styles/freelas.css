@@ -27,7 +27,7 @@
     margin-right: 48px;
     display: flex;
     flex-direction: column;
-    background-color: #201F2C;
+    background-color: #1C171E;
 
     align-items: center;
     border-radius: 8px;
@@ -94,13 +94,13 @@
 .called {
     margin-top: 200px;
     font-size:48px;
-    color: #201F2C;
+    color: #1C171E;
 }
 
 .called-link {
     margin-top: 24px;
     font-size: 32px;
-    color: #686680;
+    color: #1C171E;
     transition: color .5s;
     animation: calledBlink 1.5s infinite;
 
@@ -108,7 +108,7 @@
 
 @keyframes calledBlink {
     50%{
-        color: #FDCB90;
+        color: #FA4450;
         transform: scale(1.1) scaleX(1.2);
     }
     

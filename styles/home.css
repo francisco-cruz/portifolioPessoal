@@ -18,7 +18,7 @@
 
 .left-page {
     margin-left: 200px;
-    background-color: #FFFFFD;
+    background-color: white;
     margin-right: 24px;
 }
 .sub-description {
@@ -29,8 +29,8 @@
     width: 180px;
     margin-top: 24px;
     text-align: center;
-    background-color: #201F2C;
-    color: #E5E5E3;
+    background-color: #FA4450;
+    color: white;
     padding: 16px 0;
     border-radius: 24px;
     border: none;
@@ -41,7 +41,7 @@
 
 .btn-read-more:hover {
     color: white;
-    background-color:#FF530D;
+    background-color:#1C171E;
 }
 
 
@@ -50,7 +50,7 @@
     width: 500px;
     height: 500px;
     margin-right: 200px;
-    background-color: #FF9600;
+    background-color: #FA4450;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -63,11 +63,11 @@
 
 @keyframes bgFoto {
     0%,100%{
-        background-color: #FF9600;
+        background-color: #FA4450;
         transform: scale(1);
     }
     50%{
-        background-color: #FF530D;
+        background-color: #1C171E;
         transform: scale(1.2);
     }
 }
@@ -102,46 +102,16 @@
 @keyframes arrow {
     50%{
         margin-top: 10px;
-        color: #686680;
+        color: #887589;
     }
 }
 
 .text-arrow {
     margin-top: 64px;
-    color: #686680;
-
-
-}
-
-.welcome{
-    
-    border-right-color: #E5E5E3;
-    writing-mode:initial;
-    white-space: nowrap;
-    overflow: hidden;width: auto;
-    
-}
-
-.welcome2 {
- 
-    border-right-color: #E5E5E3;
-    writing-mode:initial;
-   white-space: nowrap;
-   overflow: hidden;
-   
-   animation:
-    type  2s 3s steps(20) normal;
-}
-
-.welcome3 {
-   
-    border-right-color: #E5E5E3;
-    writing-mode:initial;
-    white-space: nowrap;
-    overflow: hidden;
-   
+    color: #887589;
 
 }
+
 
 /* @keyframes cursor {
     from {

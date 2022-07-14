@@ -25,9 +25,9 @@
 }
 
 .items-resume h1 {
+    position: relative;
     margin-top:64px;
 }
-
 
 .doodles {
     width: 25%;

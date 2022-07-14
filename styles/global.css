@@ -32,12 +32,12 @@ ol, ul, li, a, p, button {
     font-weight: 700;
     font-size: 18px;;
     font-family: 'Ubuntu Mono', monospace;
-    color: #201F2C;
+    color: #1C171E;
     
 }
 
 h1, h2 { 
-    color: #201F2C;
+    color: #1C171E;
     margin: 0;
     padding: 0;
 }
@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-    color: #686680;
+    color: #887589;
     font-size: 24px;
     margin: 0;
     padding: 0;

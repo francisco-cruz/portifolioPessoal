@@ -6,7 +6,6 @@
     height: 70px;
     background-color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     z-index: 100;
     
@@ -14,6 +13,8 @@
 
 .nav h2 {
     margin-right: 200px;
+    font-size: 42px;
+    margin-left: 32px;
     color: #201F2C;
 }
 
