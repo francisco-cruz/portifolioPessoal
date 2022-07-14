@@ -35,9 +35,6 @@ ol, ul, li, a, p, button {
     color: #201F2C;
     
 }
-.active > a {
-    color:red;
-    }
 
 h1, h2 { 
     color: #201F2C;
