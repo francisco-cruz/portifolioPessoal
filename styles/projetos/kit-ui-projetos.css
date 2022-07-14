@@ -11,5 +11,7 @@
     margin-top: 64px;
 }
 .kit-ui img {
-    margin-top: 64px;
+    width: 965px;
+    margin-top: 48px;
+    object-fit: cover;
 }
