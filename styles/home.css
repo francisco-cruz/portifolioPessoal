@@ -40,8 +40,8 @@
 }
 
 .btn-read-more:hover {
-    color: #201F2C;
-    background-color:#FDCB90;
+    color: white;
+    background-color:#FF530D;
 }
 
 
@@ -50,7 +50,7 @@
     width: 500px;
     height: 500px;
     margin-right: 200px;
-    background-color: #FDCB90;
+    background-color: #FF9600;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -63,11 +63,11 @@
 
 @keyframes bgFoto {
     0%,100%{
-        background-color: #FDCB90;
+        background-color: #FF9600;
         transform: scale(1);
     }
     50%{
-        background-color: #686680;
+        background-color: #FF530D;
         transform: scale(1.2);
     }
 }
