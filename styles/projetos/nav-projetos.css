@@ -7,25 +7,22 @@
     background-color: white;
     display: flex;
     align-items: center;
-    z-index: 100;
-    
+    z-index: 100;   
 }
 
 .nav-projetos h2 {
-    
     font-size: 42px;
     margin-left: 32px;
     color: #201F2C;
 }
 
 .fa-arrow-left {
+    touch-action: manipulation;
     font-size: 22px;
     margin-left: 200px;
     color: #201F2C;
 }
-
 /* responsividade */
-
 @media only screen and (max-width:600px) {
     .nav-projetos {
         display: flex;

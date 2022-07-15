@@ -25,6 +25,7 @@
 }
 
 .btn-read-more {
+    touch-action: manipulation;
     width: 180px;
     margin-top: 24px;
     text-align: center;

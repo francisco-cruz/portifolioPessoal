@@ -46,6 +46,7 @@ nav {
 
 #item {
     color: white;
+    touch-action: manipulation;
  
 }
  

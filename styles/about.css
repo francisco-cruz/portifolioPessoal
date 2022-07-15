@@ -84,12 +84,12 @@
 }
 
 .iconSociais {
+    touch-action: manipulation;
     margin-top: 32px;
     color: #1C171E;
     margin-right: 16px;
     cursor: pointer;
     transition: transform .1s;
-
 }
 
 .iconSociais:hover {

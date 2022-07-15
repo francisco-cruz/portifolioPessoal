@@ -1,19 +1,17 @@
+/* importando todos os estilos */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 @import 'about.css';
-/* @import 'details.css'; */
 @import 'nav.css';
-/* @import 'projects.css'; */
 @import 'home.css';
 @import 'projects.css';
-
 @import 'details.css';
 @import 'freelas.css';
-
 @import 'contato.css';
 
 html {
     scroll-behavior: smooth;
   }
+
 body {
     margin: 0;
     padding: 0;
@@ -33,7 +31,6 @@ ol, ul, li, a, p, button {
     font-size: 18px;;
     font-family: 'Ubuntu Mono', monospace;
     color: #1C171E;
-    
 }
 
 h1, h2 { 
@@ -41,9 +38,11 @@ h1, h2 {
     margin: 0;
     padding: 0;
 }
+
 h1 {
     font-size: 48px;
 }
+
 h2 {
     font-size: 32px;
 }
@@ -54,5 +53,3 @@ h3 {
     margin: 0;
     padding: 0;
 }
-
-
