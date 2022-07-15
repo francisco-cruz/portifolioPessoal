@@ -2,18 +2,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
+
+
     background-color: #FFFFFF;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin-top: 70px;
 }
 
 .home-container {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left-page {
@@ -21,6 +21,7 @@
     background-color: white;
     margin-right: 24px;
 }
+
 .sub-description {
     margin-top: 16px;
 }
@@ -41,7 +42,7 @@
 
 .btn-read-more:hover {
     color: white;
-    background-color:#1C171E;
+    background-color: #1C171E;
 }
 
 
@@ -54,19 +55,23 @@
     border-radius: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
+
 .right-page:hover {
     animation: bgFoto 1s;
-} 
+}
 
 @keyframes bgFoto {
-    0%,100%{
+
+    0%,
+    100% {
         background-color: #FA4450;
         transform: scale(1);
     }
-    50%{
+
+    50% {
         background-color: #1C171E;
         transform: scale(1.2);
     }
@@ -77,7 +82,7 @@
     height: auto;
     border-radius: 100%;
     margin-bottom: 50px;
-   
+
 }
 
 .icon-arrow-down {
@@ -86,12 +91,13 @@
     margin-top: 64px;
     margin-left: 200px;
 }
-.arrow-down{
+
+.arrow-down {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .icon-scroll {
@@ -100,7 +106,7 @@
 }
 
 @keyframes arrow {
-    50%{
+    50% {
         margin-top: 10px;
         color: #887589;
     }
@@ -117,26 +123,26 @@
     font-size: 50px;
     margin-right: 16px;
     transition: color .2s, transform .5s;
-} 
+}
 
 .fa-brands:nth-child(1):hover {
-    color:#F67B35;
+    color: #F67B35;
     transform: scale(1.1);
-    
+
 }
 
 .fa-brands:nth-child(2):hover {
-    color:#379AD6;
+    color: #379AD6;
     transform: scale(1.1);
 }
 
 .fa-brands:nth-child(3):hover {
-    color:#F5CE35;
+    color: #F5CE35;
     transform: scale(1.1);
 }
 
 .fa-brands:nth-child(4):hover {
-    color:#777BB3;
+    color: #777BB3;
     transform: scale(1.1);
 }
 
@@ -145,53 +151,85 @@
     font-size: 50px;
     margin-right: 8px;
     transition: color .5s, transform .5s;
-} 
-
-
-
-@media only screen and (max-width: 1100px) {
-    .home-container{
-        justify-content: center;
-    }
-   .right-page{
-    display: none;
-   }
-   .left-page {
-    margin: 0;;
-   }
-   .icon-arrow-down{
-    margin: 0;
 }
-.page-home {
-    align-items: center;
-}
- }
- 
- 
- @media only screen and (max-width:630px) {
-    .welcome,.welcome2,.welcome3{
-        font-size: 32px;
+
+
+
+/* responsividade */
+@media only screen and (max-width: 1024px) {
+    .home-container {
+        flex-direction: column-reverse;
     }
-    .sub-description{
+
+    .left-page {
+        margin: 0;
+    }
+
+    .icon-arrow-down {
+        margin: 0;
+    }
+
+    .page-home {
+     justify-content: flex-start;
+     align-items: center;
+    }
+
+    .right-page {
+        margin-right: 0;
+        margin-bottom: 72px;
+        margin-top: 64px;
+    }
+
+    .arrow-down {
+        margin-top: 64px;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    .right-page {
+        width: 300px;
+        height: 300px;
+        margin-top: 32px;
+        
+      
+    }
+    .foto-perfil-home{
+        width: 300px;
+        height: auto;
+        margin-bottom: 28px;
+    }
+    .welcome {
+        font-size: 38px;
+        margin-left: 16px;
+    }
+
+    .sub-description {
         font-size: 24px;
+        margin-left: 16px;
     }
+
     .left-page {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
-    .icon-arrow-down{
+    .icon-arrow-down {
         margin: 0;
     }
+
     .page-home {
         align-items: center;
     }
-  }
- 
-  @media only screen and (max-width:500px) {
-     
-  }
-  @media only screen and (max-width:410px) {
-     
-  }
+    .btn-read-more {
+        margin-left: 16px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .welcome {
+        font-size: 28px;
+    }
+    .sub-description {
+        font-size: 18px;
+    }
+}

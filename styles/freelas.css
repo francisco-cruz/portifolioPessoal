@@ -1,7 +1,7 @@
 .page-freelas{
     background-color: white;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction:column;
     padding-top: 70px;
@@ -54,6 +54,7 @@
     height: 282px;
     transform: scale(1.1);
     transition: transform .5s;
+    object-fit: cover;
    
 }
 .img-freelas:hover {
@@ -80,20 +81,17 @@
 
 }
 
-
 .calling {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     margin-top: 200px;
-
     padding-bottom: 100px;
 }
 .called {
     margin-top: 200px;
-    font-size:48px;
+    font-size: 48px;
     color: #1C171E;
 }
 
@@ -112,4 +110,52 @@
         transform: scale(1.1) scaleX(1.2);
     }
     
+}
+
+/* responsividade */
+@media only screen and (max-width: 1340px) {
+    .container-freelas {
+        flex-direction: column;
+        margin: 0;
+    }
+    .titulo-freelas {
+        margin-bottom: 64px;
+
+    }
+    .freelas {
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 48px;
+        width: 380px; 
+    }
+    .called{
+        font-size: 32px;
+        margin-left: 16px;
+    }
+}
+
+@media  only screen and (max-width: 650px) {
+    .called {
+        font-size: 28px;
+        text-align: center;
+    }
+  
+}
+
+@media  only screen and (max-width: 460px) {
+    .freelas {
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 460px) {
+    .freelas {
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .freelas {
+        width: 260px;
+    }
 }

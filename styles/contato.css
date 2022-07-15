@@ -140,3 +140,18 @@ input[type=submit]:hover {
     color: white;
     margin-left: 8px;
 }
+
+/* responsividade */
+@media only screen and (max-width:430px){
+    li input {
+    width: 250px;
+    }
+    .textarea {
+        max-width: 250px;
+        min-width: 220px;
+    }
+
+    .form-container {
+        padding: 24px 24px;
+    }
+}

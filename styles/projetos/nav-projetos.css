@@ -1,4 +1,4 @@
-.nav {
+.nav-projetos {
     position: fixed;
     top:0;
     left: 0;
@@ -11,8 +11,8 @@
     
 }
 
-.nav h2 {
-    margin-right: 200px;
+.nav-projetos h2 {
+    
     font-size: 42px;
     margin-left: 32px;
     color: #201F2C;
@@ -23,3 +23,35 @@
     margin-left: 200px;
     color: #201F2C;
 }
+
+/* responsividade */
+
+@media only screen and (max-width:600px) {
+    .nav-projetos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fa-arrow-left {
+        margin: 0;
+    }
+    
+ }
+
+ @media only screen and (max-width:390px) {
+    .nav-projetos h2 {
+        font-size: 32px;
+       
+    }
+ }
+
+ @media only screen and (max-width:360px) {
+    .nav-projetos h2 {
+        font-size: 28px;
+    }
+    .fa-arrow-left {
+        
+        margin-left: 16px;
+        
+    }
+ }

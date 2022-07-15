@@ -35,25 +35,24 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 200px;  
+    margin-right: 200px; 
+    
 }
 
 .nav-links .nav-item {
     margin-left: 32px;
+   
 }
 
 #item {
     color: white;
+ 
 }
-
-#item:hover {
-
-    padding-bottom: 5px;
+ 
+.nav-item:hover {
+    padding: 5px 0;
     border-bottom: #FA4450 3px solid;
-
 }
-
-
 
 .contact-me {
     color: white;
@@ -70,26 +69,41 @@ nav {
 
 
 
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (max-width:1024px){
+    .txt-titulo {
+        display: none;
+    }
+    .nav{
+        justify-content: center;
+    } 
+ }
+
+@media only screen and (max-width: 786px) {
    .logo, .txt-titulo{
     display: none;
    } 
+   .nav-links {
+    margin: 0;
+   }
 }
-
 
 @media only screen and (max-width:580px) {
     .nav-item.about-item{
         display: none;
     }
+    
  }
 
  @media only screen and (max-width:500px) {
     .nav-item.freelas-item{
         display: none;
     }
+    
  }
  @media only screen and (max-width:410px) {
     .nav-item.projects-item{
         display: none;
     }
+    
  }
