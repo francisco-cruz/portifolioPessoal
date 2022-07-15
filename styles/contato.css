@@ -2,7 +2,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-image: url('..imges/pexels-photo-5623083.webp');
 }
 
@@ -10,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -18,12 +18,10 @@ body {
     background-color: #1C171E;
     border-radius: 8px;
     padding: 48px 32px;
-
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 li {
@@ -49,7 +47,6 @@ li input {
     font-family: 'Share Tech Mono', monospace;
     padding-left: 10px;
     box-shadow: inset 4px 4px 15px 0px  rgba(32, 31, 44, 0.3);
-
 }
 
 li input:focus {
@@ -58,7 +55,6 @@ li input:focus {
     color: #686680;
     font-size: 18px;
     font-weight: 700;
-
 }
 
 .textarea {
@@ -76,8 +72,6 @@ li input:focus {
     color: #1C171E;
     font-size: 18px;
     box-shadow: inset 4px 4px 15px 0px  rgba(32, 31, 44, 0.3);
-
-
 }
 
 .textarea:focus {
@@ -86,7 +80,6 @@ li input:focus {
     color: #686680;
     font-size: 18px;
     font-weight: 700;
-
 }
 
 input[type=submit] { 
@@ -102,14 +95,12 @@ input[type=submit] {
     cursor: pointer;
     text-align: center;
     box-shadow: 10px 0px 13px -7px #000000;
-
 }
 
 input[type=submit]:hover {
     background-color: #887589;
     color: white;
 }
-
 
 .foto-bg {
     width: 100%;
@@ -123,7 +114,6 @@ input[type=submit]:hover {
     position: absolute;
     background-color: rgba(19, 18, 52, 0.2);
     backdrop-filter: blur(6px);
-
 }
 
 .back {
@@ -131,9 +121,9 @@ input[type=submit]:hover {
     align-items: center;
     justify-content: center;
 }
+
 .icon-back {
     color: white;
-
 }
 
 .text-back {
