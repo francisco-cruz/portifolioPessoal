@@ -112,25 +112,6 @@
 
 }
 
-
-/* @keyframes cursor {
-    from {
-        border-right-color: #201F2C;
-    }
-    to {
-        border-right-color: transparent;
-    }
-}
-
-@keyframes type {
-    from {
-        width: 0;
-    }
-    to {
-       width: 100%;
-    }
-} */
-
 .fa-brands {
     color: #201F2C;
     font-size: 50px;
@@ -165,3 +146,52 @@
     margin-right: 8px;
     transition: color .5s, transform .5s;
 } 
+
+
+
+@media only screen and (max-width: 1100px) {
+    .home-container{
+        justify-content: center;
+    }
+   .right-page{
+    display: none;
+   }
+   .left-page {
+    margin: 0;;
+   }
+   .icon-arrow-down{
+    margin: 0;
+}
+.page-home {
+    align-items: center;
+}
+ }
+ 
+ 
+ @media only screen and (max-width:630px) {
+    .welcome,.welcome2,.welcome3{
+        font-size: 32px;
+    }
+    .sub-description{
+        font-size: 24px;
+    }
+    .left-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-arrow-down{
+        margin: 0;
+    }
+    .page-home {
+        align-items: center;
+    }
+  }
+ 
+  @media only screen and (max-width:500px) {
+     
+  }
+  @media only screen and (max-width:410px) {
+     
+  }

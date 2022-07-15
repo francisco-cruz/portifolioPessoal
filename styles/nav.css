@@ -67,3 +67,29 @@ nav {
 .img-logo{
     margin-left: 70px;
 }
+
+
+
+@media only screen and (max-width: 1000px) {
+   .logo, .txt-titulo{
+    display: none;
+   } 
+}
+
+
+@media only screen and (max-width:580px) {
+    .nav-item.about-item{
+        display: none;
+    }
+ }
+
+ @media only screen and (max-width:500px) {
+    .nav-item.freelas-item{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:410px) {
+    .nav-item.projects-item{
+        display: none;
+    }
+ }
