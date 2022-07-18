@@ -3,6 +3,7 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url('..imges/pexels-photo-5623083.webp');
+    background-size: 100%;
 }
 
 .container {
