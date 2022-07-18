@@ -49,7 +49,7 @@ li input {
     box-shadow: inset 4px 4px 15px 0px  rgba(32, 31, 44, 0.3);
 }
 
-li input:focus {
+li input [type=text]:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
     color: #686680;
@@ -183,6 +183,11 @@ input[type=submit]:hover {
     }
     .form-container {
         padding: 32px 32px;
+    }
+
+
+    .toast {
+        width: 334px;
     }
 
 }

@@ -212,9 +212,9 @@
 
 @media only screen and (max-width:520px) {
     .welcome {
-        font-size: 26px;
+        font-size: 30px;
     }
     .sub-description {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
