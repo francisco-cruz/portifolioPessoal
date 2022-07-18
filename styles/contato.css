@@ -49,15 +49,18 @@ li input {
     padding-left: 10px;
     box-shadow: inset 4px 4px 15px 0px  rgba(32, 31, 44, 0.3);
 }
-
-li input [type=text]:focus {
+li input[type=email]:focus {
+    color: #887589;
+    font-weight: 700;
     box-shadow: 0 0 0 0;
     outline: 0;
-    color: #686680;
-    font-size: 18px;
-    font-weight: 700;
 }
-
+li input[type=text]:focus {
+    color: #887589;
+    font-weight: 700;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
 .textarea {
     padding: 10px;
     background-color: white;
@@ -79,7 +82,7 @@ li input [type=text]:focus {
 .textarea:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-    color: #686680;
+    color: #887589;
     font-size: 18px;
     font-weight: 700;
 }
