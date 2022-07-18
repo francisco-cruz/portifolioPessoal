@@ -38,12 +38,13 @@
     <div class="container">
         <!-- form -->
        
-        <form action="/php/send-email.php" method="POST" class="form-container">
+        <form action="https://api.staticforms.xyz/submit" method="POST" onsubmit="testAction(event)" class="form-container">
+            <input type="hidden" name="accessKey" value="680a1fe3-3d74-4ef5-b385-b13043e9d209">
             <ul>
                 <li>
                     <!-- input nome -->
                     <label for="">Nome</label>
-                    <input type="text" name="nome" placeholder="Ex:Francisco">
+                    <input type="text" name="name" placeholder="Ex:Francisco">
                 </li>
                 <li>
                     <!-- input email -->
@@ -53,7 +54,7 @@
                 <li>
                     <!-- input mensagem -->
                     <label for="">Mensagem</label>
-                    <textarea name="mensagem" class="textarea" name="message" placeholder="Sua Mensagem"></textarea>
+                    <textarea name="message" class="textarea" name="message" placeholder="Sua Mensagem"></textarea>
                 </li>
                 <li>
                     <!-- botão enviar -->

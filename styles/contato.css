@@ -98,6 +98,7 @@ input[type=submit] {
     text-align: center;
     box-shadow: 10px 0px 13px -7px #000000;
     align-self: center;
+    touch-action: manipulation;
 }
 
 input[type=submit]:hover {
@@ -127,6 +128,7 @@ input[type=submit]:hover {
 
 .icon-back {
     color: white;
+    touch-action: manipulation;
 }
 
 .text-back {
@@ -163,19 +165,12 @@ input[type=submit]:hover {
     opacity: 1;
 }
 
-.cor {
-    width: 100px;
-    height: 100px;
-    background-color: #887589;
-    z-index: 100;
-    cursor: pointer;
-}
-
 .iconClose {
     color: white;
     width: 20px;
     margin-right: 16px;
     cursor: pointer;
+    touch-action: manipulation;
 }
 /* responsividade */
 @media only screen and (max-width:430px){

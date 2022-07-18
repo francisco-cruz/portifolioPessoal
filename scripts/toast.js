@@ -8,3 +8,7 @@ function closeToast () {
    let toast = document.querySelector('.toast');
     toast.classList.remove("toast-visible");
 }
+
+function testAction(event) {
+    event.preventDefault()
+}

@@ -1,5 +1,13 @@
 /* importando todos os estilos */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Space+Mono:wght@400;700&display=swap');
+
 @import 'about.css';
 @import 'nav.css';
 @import 'home.css';
@@ -15,7 +23,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Share Tech Mono', monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +36,7 @@ ol, ul, li, a, p, button {
     list-style: none;
     font-weight: 700;
     font-size: 18px;;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
     color: #1C171E;
 }
 
@@ -41,10 +48,12 @@ h1, h2 {
 
 h1 {
     font-size: 48px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 h2 {
     font-size: 32px;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 h3 {
@@ -52,4 +61,5 @@ h3 {
     font-size: 24px;
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
