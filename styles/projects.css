@@ -21,7 +21,8 @@
 }
 .project {
     width: 400px;
-    height: 500px;
+    max-height: 400px;
+    padding-bottom: 32px;
     margin-right: 48px;
     display: flex;
     flex-direction: column;
@@ -77,6 +78,7 @@
     border: none;
     padding: 16px 48px;
     transition: transform .2s;
+    cursor: pointer;
 }
 
 .btn-projeto:hover {

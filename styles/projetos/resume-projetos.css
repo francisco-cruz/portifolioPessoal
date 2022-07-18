@@ -1,15 +1,23 @@
 .resume {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container-resume {
     background-color: White;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.resume p {
-    margin-top: 48px;
+.container-resume p {
+    width: 500px;
+    margin-top: 32px;
     font-size: 20px;
+    text-align: left;
 }
 
 .items-resume {
@@ -18,51 +26,49 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 350px;
 }
 
 .items-resume h1 {
-    position: relative;
-    margin-top:64px;
+    align-self: flex-start;
 }
 
 .doodles {
-    width: 30%;
+    width: 300px;
     height: auto;
     object-fit: cover;
-    margin-top: 64px;
-    transition: transform 1s;
+    margin-right: 64px;
 }
-
-.doodles:hover {
-    transform:scale(1.1);
-}
-
-@media only screen and (max-width:1440px) {
-    .items-resume {
-        margin: 0 200px;
-    }  
-}
-@media only screen and (max-width:1300px) {
+ /* responsividade */
+ @media only screen and (max-width: 950px) {
+    .container-resume {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .doodles {
-        display: none;
+        margin-right: 0;
+        margin-top: 64px;
+    } 
+ }
+
+ @media only screen and (max-width: 630px) {
+    .container-resume {
+        margin-left: 24px;
     }
-}
-@media only screen and (max-width:1024px) {
-    .items-resume {
-        margin: 0 100px;
-    }
-}
-@media only screen and (max-width:770px) {
-    .items-resume {
-        margin: 0 50px;
-    }
-    .resume p {
+ }
+
+ @media only screen and (max-width: 550px) {
+    .items-resume p{
+        width: 400px;
         font-size: 18px;
-    }   
-}
-@media only screen and (max-width:500px) {
-    .items-resume {
-        margin: 0 16px;
-    }  
-}
+    }
+ }
+
+ @media only screen and (max-width: 430px) {
+    .items-resume p{
+        width: 330px;
+        font-size: 16px;
+        margin-right: 16px;
+        
+    }
+ }

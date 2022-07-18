@@ -23,17 +23,19 @@
     align-items: center;
     justify-content: center;
     margin-right: 48px;
-    transition: transform .5s;
 }
-
-.icon:hover {
-    transform: scale(1.1);
+.icon img {
+    width: 64px;
 }
-
 .icon p {
     margin-top: 12px;
 }
 /* responsividade */
+@media only screen and (max-width:500px){
+    .icon {
+        width: 50px;
+    }
+}
 @media only screen and (max-width:350px){
     .icon {
         margin-right: 24px;

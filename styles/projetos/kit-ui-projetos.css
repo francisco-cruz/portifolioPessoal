@@ -13,8 +13,13 @@
 
 .kit-ui img {
     width: 50%;
-    margin-top: 48px;
+    margin-top: 64px;
     object-fit: cover;
+    transition: transform 1s;
+}
+
+.kit-ui img:hover {
+    transform: scale(1.2);
 }
 
 /* responsividade */

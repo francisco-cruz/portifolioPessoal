@@ -35,8 +35,12 @@
     animation: bg-scale-perfil 1s;
     -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
-}@keyframes bg-scale-perfil {
-    0%, 100%{
+}
+
+@keyframes bg-scale-perfil {
+
+    0%,
+    100% {
         transform: scaley(1);
     }
 
@@ -56,7 +60,9 @@
 
 .bg-foto:hover {
     animation: bgFoto-about 1s;
-}@keyframes bgFoto-about {
+}
+
+@keyframes bgFoto-about {
     50% {
         transform: scale(1.11);
         background-color: #1C171E;
@@ -81,6 +87,10 @@
 
 .info-textos p {
     margin-bottom: 14px;
+}
+
+.sociais {
+    margin-left: 16px;
 }
 
 .iconSociais {
@@ -110,13 +120,15 @@
     margin-left: 24px;
 }
 
+
 .habilidades {
     margin-top: 16px;
+    margin-left: 16px;
 }
 
 .lista-habilidades {
-    margin-left: 16px;
-    margin-top: 8px;
+    margin-left: 32px;
+    margin-top: 12px;
 }
 
 .algo {
@@ -125,6 +137,8 @@
     margin-left: 24px;
     border-radius: 8px;
 }
+
+
 /* responsividade */
 @media only screen and (max-width:840px) {
     .main-page-about {
@@ -135,12 +149,16 @@
         justify-content: center;
         align-items: center;
         margin: 0;
-        margin-bottom: 64px;
 
     }
 
+    .texto-foco {
+        text-align: center;
+    }
+
     .algo {
-        display: none;
+        margin: 0;
+        margin-bottom: 24px;
 
     }
 
@@ -161,7 +179,7 @@
 
     .perfil {
         margin: 16px;
-        padding: 16px;
+        padding: 32px 32px;
     }
 
     .about-items-right {

@@ -36,7 +36,7 @@ li label {
 }
 
 li input {
-    width: 340px;
+    width: 344px;
     height: 40px;
     border: none;
     border-radius: 24px;
@@ -62,7 +62,8 @@ li input:focus {
     background-color: white;
     border-radius: 8px;
     margin-bottom: 24px;
-    width: 332px;
+    width: 346px;
+    height: 220px;
     max-width: 332px;
     min-width: 220px;
     max-height: 300px;
@@ -83,6 +84,7 @@ li input:focus {
 }
 
 input[type=submit] { 
+    width: 100%;
     height: auto;
     color: white;
     background-color: #FA4450;
@@ -95,6 +97,7 @@ input[type=submit] {
     cursor: pointer;
     text-align: center;
     box-shadow: 10px 0px 13px -7px #000000;
+    align-self: center;
 }
 
 input[type=submit]:hover {
@@ -130,18 +133,61 @@ input[type=submit]:hover {
     color: white;
     margin-left: 8px;
 }
+/* toast */
+.toast {
+    visibility: none;
+    width: 420px;
+    border-radius: 8px;
+    height: 50px;
+    background-color: #FA4450;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .5s, top .5s, visibility .5s;
+    
+} 
+/* toast */
+.toast p {
+    margin-left: 16px;
+    color: white;
+    font-weight: 600;
+}
 
+.toast-visible {
+    top: 20px;
+    opacity: 1;
+}
+
+.cor {
+    width: 100px;
+    height: 100px;
+    background-color: #887589;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.iconClose {
+    color: white;
+    width: 20px;
+    margin-right: 16px;
+    cursor: pointer;
+}
 /* responsividade */
 @media only screen and (max-width:430px){
     li input {
-    width: 250px;
+    width: 268px;
     }
     .textarea {
         max-width: 250px;
         min-width: 220px;
     }
-
     .form-container {
-        padding: 24px 24px;
+        padding: 32px 32px;
     }
+
 }

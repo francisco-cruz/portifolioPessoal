@@ -13,9 +13,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
     <!-- deixar navegador mobile com cor tema -->
-    <meta name="theme-color" content="#201F2C" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#201F2C" />
-    <meta name="msapplication-navbutton-color" content="#201F2C" />
+    <meta name="theme-color" content="#1C171E" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1C171E" />
+    <meta name="msapplication-navbutton-color" content="#1C171E" />
     <!-- titulo -->
     <title>Contato</title>
 </head>
@@ -25,31 +25,39 @@
     <img class="foto-bg" src="./images/pexels-lukas-1420709.jpg" alt="">
     <div class="sombra-bg"></div>
     <!-- container form -->
+    <div class="toast">
+        <p> Mensagem enviada com sucesso!</p>
+        <svg class="iconClose" onclick="closeToast()" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-x">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+    </div>
+    
     <div class="container">
         <!-- form -->
-        <form action="https://api.staticforms.xyz/submit" method="POST" class="form-container">
-            <input type="hidden" name="accessKey" value="a13214f7-2c24-441b-9955-4e7df12a82c3">
-            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/portifolioPessoal/contato.html">
+       
+        <form action="/php/send-email.php" method="POST" class="form-container">
             <ul>
                 <li>
                     <!-- input nome -->
                     <label for="">Nome</label>
-                    <input type="text" name="name">
+                    <input type="text" name="nome" placeholder="Ex:Francisco">
                 </li>
                 <li>
                     <!-- input email -->
                     <label for="">E-mail</label>
-                    <input type="email" name="email">
+                    <input type="email" name="email" placeholder="Ex:ui_cisco@gmail.com">
                 </li>
                 <li>
                     <!-- input mensagem -->
                     <label for="">Mensagem</label>
-                    <textarea name="message" id="" cols="30" rows="10" class="textarea" name="message"
-                        placeholder="Sua Mensagem"></textarea>
+                    <textarea name="mensagem" class="textarea" name="message" placeholder="Sua Mensagem"></textarea>
                 </li>
                 <li>
                     <!-- botão enviar -->
-                    <input type="submit" value="Enviar Mensagem"></input>
+                    <input type="submit" value="Enviar Mensagem" onclick="toast()"></input>
                 </li>
                 <a href="./index.html">
                     <div class="back">
@@ -68,6 +76,7 @@
         </a>
     </div>
     </div>
+    <script type="text/javascript" src="./scripts/toast.js"></script>
 </body>
 
 </html>

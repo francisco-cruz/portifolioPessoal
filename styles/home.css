@@ -96,6 +96,7 @@
 .icon-scroll {
     position: absolute;
     animation: arrow infinite 1.5s;
+    padding-bottom: 16px;
 }@keyframes arrow {
     50% {
         margin-top: 10px;
@@ -211,7 +212,7 @@
 
 @media only screen and (max-width:520px) {
     .welcome {
-        font-size: 28px;
+        font-size: 26px;
     }
     .sub-description {
         font-size: 18px;
