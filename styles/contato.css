@@ -180,6 +180,7 @@ input[type=submit]:hover {
 @media only screen and (max-width:430px){
     li input {
     width: 268px;
+    font-size: 16px;
     }
     .textarea {
         max-width: 250px;
@@ -188,10 +189,11 @@ input[type=submit]:hover {
     .form-container {
         padding: 32px 32px;
     }
-
-
     .toast {
         width: 334px;
+    }
+    .toast p {
+        font-size: 14px;
     }
 
 }
